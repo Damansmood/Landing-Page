@@ -1,4 +1,25 @@
-.container-2 {
+.container_one {
     display: flex;
-    flex: 1
+    flex-direction: row;
+    border: 40px red;
+}
+
+.container_one div {
+    background-color: darkblue;
+    
+    color: white;
+    flex: 1;
+}
+
+.container_two {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.container_two div{
+    background-color: darkblue;
+    border: 40px red;
+    color: white;
+    flex: 1;
 }
