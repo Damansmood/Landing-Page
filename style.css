@@ -1,23 +1,53 @@
 .container-1 {
-    background-color: #1f2937;
+    background: #1f2937;
     color: white;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
 }
 
 .top {
     display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+}
+
+.top-left {
+    display: flex;
     flex: 1;
-    justify-content: space-around;
-    border: 8px;
-    margin: 8px;
+    border: 2px solid orange;
     padding: 8px;
+    margin: 2px;
+}
+
+.top-right {
+    display: flex;
+    flex: 1;
+    border: 2px solid pink;
+    justify-content: space-around;
 }
 
 .bottom {
     display: flex;
+    border: 2px solid purple;
+    padding: 6px;
+    margin: 2px;
+}
+
+.bottom-left {
+    display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-around;
-    border: 8px;
-    margin: 8px;
+    border: 2px solid green;
     padding: 8px;
+    align-items: center;
 }
+
+ .bottom-right {
+    display: flex;
+    flex: 1;
+    border: 2px solid green;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+ }
